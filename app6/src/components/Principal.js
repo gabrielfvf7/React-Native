@@ -12,7 +12,7 @@ const btnJogar = require('../imgs/botao_jogar.png');
 const btnSobreJogo = require('../imgs/sobre_jogo.png');
 const btnOutrosJogos = require('../imgs/outros_jogos.png');
 
-export default class Principal extends Component{
+export default class Principal extends Component {
   render() {
     const { principal, apresentacao, rodape } = styles;
     return (
